@@ -1,0 +1,69 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(163, 228, 13);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  margin: 20px;
+  display:block;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  box-shadow: -4px 10px 35px -1px rgba(214, 194, 105, 0.75);
+  min-height: 20rem;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(61, 136, 107);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
